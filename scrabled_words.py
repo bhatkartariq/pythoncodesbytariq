@@ -1,6 +1,7 @@
 import random
 
 words = ["python", "computer", "science", "developer", "keyboard"]
+# words that are used to scramble 
 
 word = random.choice(words)
 letters = list(word)
