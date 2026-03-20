@@ -1,4 +1,6 @@
 import random
+#random used to get random numbers
+
 num=random.randint(1,100)
 attempts=10
 print("NUMBER GUESSING GAME FROM 1-100")
