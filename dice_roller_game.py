@@ -12,7 +12,7 @@ start=input("yes/no: ").lower()
 while start== "yes":
     comp_roll=random.randint(1,6) 
       
-    your_roll=random.randint(1,6)
+    your_roll=random.randint(1,6)#used for rolling
 
     if comp_roll>your_roll:
         print(f"computer won! computer dice: {comp_roll}, your dice: {your_roll}")
