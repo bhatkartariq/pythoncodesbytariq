@@ -8,7 +8,7 @@ name=input("Enter your name : ").capitalize()
 print(f"let's begin {name}")
 
 start=input("yes/no: ").lower()
-
+#it can used without lopps too 
 while start== "yes":
     comp_roll=random.randint(1,6) 
       
