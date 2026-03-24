@@ -2,7 +2,7 @@ import random
 print("welcome-rock/paper/scissors-game")
 choices = ["rock", "paper", "scissors"]
 win = 0
-compwin = 0
+compwin = 0# it is declared value of losses
 
 while win < 2 and compwin < 2:
     user = input("Enter rock, paper, or scissors: ").lower()
