@@ -4,3 +4,4 @@ if number%2==0:#condition for odd even
     print("number is even")
 else: 
     print("number is odd")
+#printhing output 
